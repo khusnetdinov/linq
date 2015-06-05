@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["marat@khusnetdinov.ru"]
 
   spec.summary       = %q{Language-Integrated Query (LINQ)}
-  spec.description   = %q{Language-Integrated Query (LINQ) is a set of features introduced in Visual Studio 2008 that create powerful query capabilities to the language. LINQ introduces standard, easily-learned patterns for querying and updating data, and the technology can be extended to support potentially any kind of data store.}
+  spec.description   = %q{LINQ introduces standard, easily-learned patterns for querying and updating data, and the technology can be extended to support potentially any kind of data store.}
   spec.homepage      = ""
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
