@@ -1,3 +1,3 @@
-//= require linq.lib
-//= require linq.rx
-//= require link.jquery
+//= require linq.lib.js
+//= require linq.rx.js
+//= require link.jquery.js
