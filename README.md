@@ -82,7 +82,7 @@ And Jquery:
 
 ```javascript
 // $.Enumerable
-$.Enumerable.Range(1, 10).Where("$%2==0").ForEach("alert($)");
+$.Enumerable.Range(1, 10).Where("$ % 2 == 0").ForEach("alert($)");
 
 // TojQuery - Enumerable to jQuery
 $.Enumerable.Range(1, 10)
