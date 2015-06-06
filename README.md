@@ -1,8 +1,13 @@
 # Linq
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/linq`. To experiment with that code, run `bin/console` for an interactive prompt.
+Language-Integrated Query (LINQ) is a set of features introduced in Visual Studio 2008 (That moment for #C, VisualBasic) that extends powerful query capabilities to the language syntax. This gem is wrapper for linq.js JavaScript plugin. LINQ introduces standard, easily-learned patterns for querying and updating data, and the technology can be extended to support potentially any kind of data store.
 
-TODO: Delete this and the text above, and describe your gem
+## Features
+
+	- implement all .NET 4.0 methods and many extra methods (inspiration from Rx, Achiral, Haskell, Ruby, etc...)
+    - complete lazy evaluation
+	- two versions - linq.js and jquery.linq.js (jQuery plugin)
+	- binding for Reactive Extensions for JavaScript(RxJS)
 
 ## Installation
 
@@ -20,20 +25,8 @@ Or install it yourself as:
 
     $ gem install linq
 
+Add to javascript manifest `application.js`
+    
+	//= require linq
+
 ## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release` to create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/linq/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
