@@ -52,7 +52,7 @@ var queryResult2 = Enumerable.From(jsonArray)
     .ToArray();
 ```    
 
-And more tricky:
+More tricky:
 
 ```javascript	  
 // anonymous function
@@ -78,6 +78,25 @@ var ex3 = Enumerable.From({foo:10, bar:20}).ToArray(); // [{Key:"foo",Value:10},
 // object literal
 Enumerable.From(array).Select("val,i=>{Value:val, Index:i}")
 ```
+And Jquery:
+
+```javascript
+// $.Enumerable
+$.Enumerable.Range(1, 10).Where("$%2==0").ForEach("alert($)");
+
+// TojQuery - Enumerable to jQuery
+$.Enumerable.Range(1, 10)
+    .Select(function (i) { return $("<option>").text(i)[0] })
+    .TojQuery()
+    .appendTo("#select1");
+
+// toEnumerable - jQuery to Enumerable
+var sum = $("#select1").children()
+    .toEnumerable()
+    .Select("parseInt($.text())")
+    .Sum(); // 55
+```
+
 
 Full [documentation is on the wiki][wiki]
 
