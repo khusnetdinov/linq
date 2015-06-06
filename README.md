@@ -30,7 +30,7 @@ Add to javascript manifest `application.js`
 	//= require linq
 
 ## Examples of usage
-```javscript
+```javascript
 var jsonArray = [
     { "user": { "id": 100, "screen_name": "d_linq" }, "text": "to objects" },
     { "user": { "id": 130, "screen_name": "c_bill" }, "text": "g" },
