@@ -1,6 +1,6 @@
 # Linq
 
-Language-Integrated Query (LINQ) is a set of features introduced in Visual Studio 2008 (That moment for #C, VisualBasic) that extends powerful query capabilities to the language syntax. This gem is wrapper for linq.js JavaScript plugin. LINQ introduces standard, easily-learned patterns for querying and updating data, and the technology can be extended to support potentially any kind of data store.
+This gem is wrapper for linq.js JavaScript plugin. Language-Integrated Query (LINQ) is a set of features introduced in Visual Studio 2008 (That moment for #C, VisualBasic) that extends powerful query capabilities to the language syntax. LINQ introduces standard, easily-learned patterns for querying and updating data, and the technology can be extended to support potentially any kind of data store.
 
 ## Features
 
